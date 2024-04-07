@@ -1,0 +1,8 @@
+sudo ifconfig wlan0 down
+sudo ifconfig wlan0 hw ether 04:F0:21:32:BD:A5
+sudo ifconfig wlan0 up
+
+sudo iw phy phy0 interface add mon0 type monitor
+sudo iw dev wlan0 del
+sudo ifconfig mon0 up
+sudo iw dev mon0 set freq 2422

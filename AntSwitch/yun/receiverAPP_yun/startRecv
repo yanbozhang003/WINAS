@@ -1,0 +1,1 @@
+sudo ./receiverAPP -s 155.69.150.27 -r 6767 -p 1 -t 10

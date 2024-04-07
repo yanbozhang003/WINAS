@@ -1,0 +1,2 @@
+iw dev mon0 del
+iw phy phy0 interface add wlan0 type managed

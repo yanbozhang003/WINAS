@@ -1,0 +1,23 @@
+echo 0 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100
+
+echo 1 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100
+
+echo 2 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100
+
+echo 3 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100
+
+echo 4 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100
+
+echo 5 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100
+
+echo 6 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100
+
+echo 7 > /sys/kernel/debug/ieee80211/phy0/rc/fixed_rate_idx
+./send_Data wlan0 04:F0:21:32:66:62 100

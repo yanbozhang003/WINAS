@@ -1,0 +1,5 @@
+scp ./sendData root@155.69.142.30:~
+scp ./sendData root@155.69.142.39:~
+scp ./sendData root@155.69.142.73:~
+
+

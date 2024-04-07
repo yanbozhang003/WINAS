@@ -1,0 +1,5 @@
+#sudo apt-get update
+#sudo apt-get install openssh-client openssh-keygen
+ssh-keygen -t rsa
+ssh yanbo@155.69.150.195 mkdir -p .ssh
+cat ~/.ssh/id_rsa.pub | ssh yanbo@155.69.150.195 'cat >> .ssh/authorized_keys'
