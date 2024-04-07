@@ -6,6 +6,9 @@ WINAS is a system implementation for improving Wi-Fi downlink throughput. It int
 
 [Channel Adapted Antenna Augmentation for Improved Wi-Fi Throughput](https://ieeexplore.ieee.org/document/9847071)
 
+```javascript
+console.log('Hello, world!');
+
 @article{zhang2022channel,
 
   title={Channel adapted antenna augmentation for improved Wi-Fi throughput},
